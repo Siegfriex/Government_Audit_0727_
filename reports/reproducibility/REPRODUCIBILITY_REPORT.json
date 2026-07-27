@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "notebook_execution": "PASS",
+  "source_hash_check": "PASS",
+  "row_count_check": "PASS",
+  "schema_check": "PASS",
+  "projection_check": "PASS",
+  "topic_assignment_check": "PASS",
+  "node_membership_check": "PASS",
+  "absolute_path_check": "PASS",
+  "external_import_check": "PASS",
+  "figure_check": "PASS",
+  "tolerance": {
+    "atol": 1e-07,
+    "rtol": 1e-06
+  },
+  "projection_max_absolute_delta": 0.0,
+  "row_counts": [
+    {
+      "table": "pages.parquet",
+      "staging_rows": 4495,
+      "clone_rows": 4495,
+      "status": "PASS"
+    },
+    {
+      "table": "blocks.parquet",
+      "staging_rows": 293717,
+      "clone_rows": 293717,
+      "status": "PASS"
+    },
+    {
+      "table": "speaker_turns.parquet",
+      "staging_rows": 65590,
+      "clone_rows": 65590,
+      "status": "PASS"
+    },
+    {
+      "table": "retrieval_segments.parquet",
+      "staging_rows": 196686,
+      "clone_rows": 196686,
+      "status": "PASS"
+    },
+    {
+      "table": "qa_pairs.parquet",
+      "staging_rows": 25958,
+      "clone_rows": 25958,
+      "status": "PASS"
+    },
+    {
+      "table": "answer_units.parquet",
+      "staging_rows": 26063,
+      "clone_rows": 26063,
+      "status": "PASS"
+    },
+    {
+      "table": "target_issues.parquet",
+      "staging_rows": 297,
+      "clone_rows": 297,
+      "status": "PASS"
+    },
+    {
+      "table": "retrieval_candidates.parquet",
+      "staging_rows": 14850,
+      "clone_rows": 14850,
+      "status": "PASS"
+    },
+    {
+      "table": "projection_points.csv",
+      "staging_rows": 761,
+      "clone_rows": 761,
+      "status": "PASS"
+    },
+    {
+      "table": "topic_bins.csv",
+      "staging_rows": 24,
+      "clone_rows": 24,
+      "status": "PASS"
+    },
+    {
+      "table": "topic_bin_members.parquet",
+      "staging_rows": 761,
+      "clone_rows": 761,
+      "status": "PASS"
+    },
+    {
+      "table": "atlas_nodes.csv",
+      "staging_rows": 140,
+      "clone_rows": 140,
+      "status": "PASS"
+    },
+    {
+      "table": "atlas_node_members.parquet",
+      "staging_rows": 761,
+      "clone_rows": 761,
+      "status": "PASS"
+    }
+  ],
+  "schemas": [
+    {
+      "table": "pages.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "blocks.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "speaker_turns.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "retrieval_segments.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "qa_pairs.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "answer_units.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "target_issues.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "retrieval_candidates.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "projection_points.csv",
+      "status": "PASS"
+    },
+    {
+      "table": "topic_bins.csv",
+      "status": "PASS"
+    },
+    {
+      "table": "topic_bin_members.parquet",
+      "status": "PASS"
+    },
+    {
+      "table": "atlas_nodes.csv",
+      "status": "PASS"
+    },
+    {
+      "table": "atlas_node_members.parquet",
+      "status": "PASS"
+    }
+  ],
+  "notebook_integrity": {
+    "json_valid": true,
+    "code_cell_count": 22,
+    "empty_code_cell_count": 0,
+    "execution_counts_continuous": true,
+    "traceback_output_count": 0,
+    "absolute_home_path_count": 0,
+    "absolute_tmp_path_count": 0,
+    "external_project_reference_count": 0
+  },
+  "canonical_release_id": "ATLAS_DG761_STORY_20260724_022353_KST_BF673FD1",
+  "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF"
+}
