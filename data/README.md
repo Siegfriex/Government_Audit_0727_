@@ -27,3 +27,5 @@
 - `pipeline/retrieval_candidates.parquet`: query별 상위 50개 검색 후보 14,850건
 
 `reviewed/` 공개본에는 검토자 이름·이메일·로컬 경로·내부 메모 열이 없습니다.
+
+Atlas 결과는 `pipeline/projection_points.csv`, `topic_bins.csv`, `atlas_nodes.csv`와 두 membership Parquet에 있습니다. 761개 분석 단위가 topic과 node에 각각 한 번씩 포함됩니다.

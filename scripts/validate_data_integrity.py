@@ -92,6 +92,8 @@ def validate_atlas() -> dict[str, object]:
     topics = pd.read_csv(ROOT / "data/pipeline/topic_bins.csv")
     nodes = pd.read_csv(ROOT / "data/pipeline/atlas_nodes.csv")
     members = pd.read_parquet(ROOT / "data/pipeline/atlas_node_members.parquet")
+    topic_members = pd.read_parquet(ROOT / "data/pipeline/topic_bin_members.parquet")
+    embedding = pd.read_parquet(ROOT / "models/generated/embedding_matrix.parquet")
     require(len(points) == EXPECTED["projection_points"], "projection point count differs")
     require(len(topics) == EXPECTED["topic_bins"], "topic bin count differs")
     require(len(nodes) == EXPECTED["atlas_nodes"], "atlas node count differs")
@@ -103,7 +105,17 @@ def validate_atlas() -> dict[str, object]:
     member_id = next((column for column in ["projection_entity_id", "decision_group_id", "atlas_node_member_id"] if column in members), None)
     require(member_id is not None and members[member_id].is_unique, "duplicate or missing node member ID")
     require(len(members) == EXPECTED["decision_groups"], "node membership coverage differs")
-    return {"projection_points": len(points), "topic_bins": len(topics), "atlas_nodes": len(nodes), "atlas_members": len(members)}
+    require(len(topic_members) == EXPECTED["decision_groups"], "topic membership coverage differs")
+    require(topic_members["projection_entity_id"].is_unique, "duplicate topic member")
+    require(embedding.shape == (EXPECTED["decision_groups"], 97), "96D embedding matrix shape differs")
+    require(embedding["projection_entity_id"].is_unique, "duplicate embedding entity")
+    return {
+        "embedding_shape": [len(embedding), embedding.shape[1] - 1],
+        "projection_points": len(points),
+        "topic_bins": len(topics),
+        "atlas_nodes": len(nodes),
+        "atlas_members": len(members),
+    }
 
 
 def validate_frontend() -> dict[str, object]:
