@@ -1,0 +1,25 @@
+name: notebook-smoke
+
+on:
+  push:
+    branches: [main, 'stage/**']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  portability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check notebook JSON and portability contract
+        run: python scripts/validate_notebook_portability.py
+      - name: Reject local-only references
+        run: |
+          ! grep -nE '/home/|/Users/|[A-Za-z]:\\' P3_CULTURE_DATA_PIPELINE.ipynb
+          ! grep -nE 'sys\.path\.(append|insert)|P3_FINAL|P3_0722|P3_TARGET' P3_CULTURE_DATA_PIPELINE.ipynb
+
