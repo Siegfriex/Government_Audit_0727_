@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "validated_at": "2026-07-27T14:10:00+09:00",
+  "runtime": {
+    "release_id": "ATLAS_DG761_STORY_20260724_022353_KST_BF673FD1",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "manifest_sha256": "2443ed983098ab2b82afb15ccc1304412cf3772f8180ff6c01a2d2a5ee4f4b3a",
+    "manifest_declared_files": 80,
+    "missing_files": 0,
+    "hash_mismatches": 0,
+    "story_preview_nodes": 16,
+    "explorer_nodes": 140,
+    "evidence_records": 64
+  },
+  "quality": {
+    "typecheck": "PASS",
+    "lint_warnings": 0,
+    "unit_test_files_passed": 23,
+    "unit_tests_passed": 67,
+    "unit_tests_failed": 0,
+    "vite_modules_transformed": 2193,
+    "build": "PASS",
+    "playwright_development_total": 55,
+    "playwright_development_passed": 41,
+    "playwright_development_skipped": 14,
+    "playwright_development_failed": 0,
+    "playwright_production_total": 27,
+    "playwright_production_passed": 21,
+    "playwright_production_skipped": 6,
+    "playwright_production_failed": 0,
+    "axe_critical": 0,
+    "axe_serious": 0
+  },
+  "dependency_audit": {
+    "critical": 0,
+    "high": 2,
+    "reviewed": true,
+    "notes": [
+      "react-router advisory concerns RSC action execution; this project is a static Vite SPA and does not use RSC actions",
+      "brace-expansion advisory is transitive and build-time; no untrusted pattern input is accepted by the deployed SPA"
+    ]
+  }
+}

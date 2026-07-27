@@ -1,0 +1,8 @@
+outputs/
+reports/
+design/
+tests/
+playwright-report/
+test-results/
+coverage/
+*.pdf

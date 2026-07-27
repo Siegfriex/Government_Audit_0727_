@@ -1,0 +1,620 @@
+.projection-method-lab {
+  --projection-grid: #dedbd3;
+  min-height: 100vh;
+  padding-block: clamp(3rem, 7vw, 7rem);
+  background:
+    linear-gradient(90deg, transparent 8.333%, color-mix(in srgb, var(--line-faint) 55%, transparent) 8.333%, transparent calc(8.333% + 1px));
+}
+
+.projection-method-lab__warning {
+  border-left: 2px solid var(--signal-red);
+  padding-left: 1rem;
+  color: var(--ink-secondary);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.projection-method-lab__backlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.projection-method-lab__backlinks a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  border-bottom: 1px solid var(--line-strong);
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.projection-method-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: clamp(2rem, 4vw, 4rem);
+  border-top: 2px solid var(--ink-primary);
+  border-bottom: 1px solid var(--line-medium);
+}
+
+.projection-method-tabs button {
+  display: grid;
+  min-height: 4.5rem;
+  place-content: center start;
+  gap: 0.2rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.projection-method-tabs button + button {
+  border-left: 1px solid var(--line-faint);
+}
+
+.projection-method-tabs button[aria-selected='true'] {
+  background: var(--ink-primary);
+  color: var(--inverse-text);
+  box-shadow: inset 0 -3px var(--signal-red);
+}
+
+.projection-method-tabs span {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.projection-method-tabs small {
+  color: var(--ink-tertiary);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+}
+
+.projection-method-tabs button[aria-selected='true'] small {
+  color: var(--inverse-muted);
+}
+
+.projection-method-panel {
+  min-height: 38rem;
+  padding-block: clamp(1.5rem, 3vw, 3rem);
+}
+
+.projection-lab-field-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(22rem, 26rem);
+  gap: clamp(1.25rem, 2.5vw, 2.5rem);
+  align-items: start;
+}
+
+.projection-lab-field-layout [data-testid='atlas-chart'] .redline-stage-body {
+  min-height: 34rem;
+}
+
+.projection-lab-dossier {
+  border-top: 2px solid var(--ink-primary);
+  border-bottom: 1px solid var(--line-medium);
+  background: var(--paper-muted);
+  padding: clamp(1.25rem, 2vw, 2rem);
+}
+
+.projection-lab-dossier__empty {
+  display: grid;
+  min-height: 22rem;
+  align-content: start;
+  gap: 1rem;
+  padding-top: 1.5rem;
+}
+
+.projection-lab-dossier__empty > span {
+  color: var(--signal-red);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 0.8;
+}
+
+.projection-lab-dossier h3,
+.projection-method-unavailable h2,
+.projection-3d-shell h2,
+.projection-method-policy h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.projection-lab-dossier__empty p,
+.projection-method-unavailable > div > p,
+.projection-3d-shell__alternative p {
+  color: var(--ink-secondary);
+  line-height: 1.65;
+}
+
+.projection-lab-dossier__selected {
+  display: grid;
+  gap: 1.25rem;
+  padding-top: 1.5rem;
+}
+
+.projection-lab-dossier__selected > div:first-child {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.projection-lab-dossier__selected > div:first-child span {
+  display: grid;
+  width: 3.5rem;
+  aspect-ratio: 1;
+  place-items: center;
+  background: var(--ink-primary);
+  color: var(--inverse-text);
+  font-family: var(--font-mono);
+  font-weight: 800;
+}
+
+.projection-lab-dossier__selected > p,
+.projection-lab-dossier__release strong {
+  overflow-wrap: anywhere;
+  color: var(--ink-tertiary);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+}
+
+.projection-lab-dossier__selected dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-block: 1px solid var(--line-medium);
+}
+
+.projection-lab-dossier__selected dl > div {
+  padding: 0.75rem 0;
+}
+
+.projection-lab-dossier__selected dl > div:nth-child(even) {
+  border-left: 1px solid var(--line-faint);
+  padding-left: 0.75rem;
+}
+
+.projection-lab-dossier dt,
+.projection-lab-dossier__release span {
+  color: var(--ink-tertiary);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projection-lab-dossier dd {
+  margin-top: 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.projection-lab-dossier__release {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--line-medium);
+  padding-top: 1rem;
+}
+
+.projection-lab-dom-mirror {
+  max-height: 26rem;
+  overflow: auto;
+  overscroll-behavior: contain;
+  margin-top: 1.5rem;
+  scrollbar-gutter: stable;
+}
+
+.projection-compare-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  border-block: 1px solid var(--line-medium);
+  padding-block: 1rem;
+}
+
+.projection-compare-toolbar label {
+  display: grid;
+  min-width: min(100%, 26rem);
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.projection-compare-toolbar select {
+  min-height: 44px;
+  border: 1px solid var(--line-strong);
+  background: var(--paper-surface);
+  padding-inline: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+}
+
+.projection-compare-toolbar p {
+  overflow-wrap: anywhere;
+  color: var(--ink-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+}
+
+.projection-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.projection-mini-plot {
+  min-width: 0;
+  border-top: 2px solid var(--ink-primary);
+  border-bottom: 1px solid var(--line-medium);
+  background: var(--paper-surface);
+}
+
+.projection-mini-plot > header {
+  display: flex;
+  min-height: 5rem;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.projection-mini-plot h3 {
+  margin-top: 0.35rem;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.projection-mini-plot > header > span {
+  color: var(--signal-red-dark);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+.projection-mini-plot__field {
+  overflow: auto;
+  border-block: 1px solid var(--line-faint);
+}
+
+.projection-mini-plot svg {
+  display: block;
+  width: max(100%, 36rem);
+  height: auto;
+}
+
+.projection-mini-plot__empty line {
+  stroke: var(--line-strong);
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.projection-mini-plot__empty text {
+  fill: var(--ink-tertiary);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.projection-mini-plot > p {
+  padding: 0.75rem 1rem;
+  color: var(--ink-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+}
+
+.projection-quality-grid,
+.tensor-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 1rem;
+  border-block: 1px solid var(--line-medium);
+}
+
+.projection-quality-grid > div,
+.tensor-spec-grid > div {
+  min-width: 0;
+  padding: 0.85rem;
+}
+
+.projection-quality-grid > div + div,
+.tensor-spec-grid > div + div {
+  border-left: 1px solid var(--line-faint);
+}
+
+.projection-quality-grid span,
+.tensor-spec-grid span {
+  display: block;
+  color: var(--ink-tertiary);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projection-quality-grid strong,
+.tensor-spec-grid strong {
+  display: block;
+  overflow-wrap: anywhere;
+  margin-top: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.projection-method-unavailable {
+  display: grid;
+  grid-template-columns: minmax(5rem, 1fr) minmax(0, 11fr);
+  gap: 1rem;
+  border-top: 2px solid var(--ink-primary);
+  border-bottom: 1px solid var(--line-medium);
+  padding-block: clamp(2rem, 5vw, 5rem);
+}
+
+.projection-method-unavailable > span {
+  color: var(--signal-red);
+  font-family: var(--font-sans);
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  font-weight: 800;
+  line-height: 0.8;
+}
+
+.projection-method-unavailable > div {
+  display: grid;
+  gap: 1rem;
+}
+
+.projection-method-unavailable .projection-mini-plot,
+.projection-method-unavailable .tensor-spec-grid {
+  margin-top: 1rem;
+}
+
+.projection-3d-shell {
+  border-top: 2px solid var(--ink-primary);
+  border-bottom: 1px solid var(--line-medium);
+}
+
+.projection-3d-shell > header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1.25rem;
+}
+
+.projection-3d-shell > header > span {
+  color: var(--signal-red-dark);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.projection-3d-shell__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border-block: 1px solid var(--line-medium);
+  padding-block: 0.75rem;
+}
+
+.projection-3d-shell__controls button {
+  min-width: 4.5rem;
+  min-height: 44px;
+  border: 1px solid var(--line-strong);
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projection-3d-shell__controls button[aria-pressed='true'] {
+  background: var(--ink-primary);
+  color: var(--inverse-text);
+}
+
+.projection-3d-shell__controls button:disabled {
+  border-style: dotted;
+  color: var(--ink-tertiary);
+  cursor: not-allowed;
+}
+
+.projection-3d-shell__viewport {
+  position: relative;
+  display: grid;
+  min-height: 34rem;
+  overflow: hidden;
+  place-items: center;
+  background: var(--inverse-surface);
+  color: var(--inverse-text);
+  perspective: 900px;
+}
+
+.projection-3d-shell__viewport > p {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.projection-3d-shell__viewport > p span {
+  color: var(--inverse-muted);
+  font-size: 0.7rem;
+}
+
+.projection-3d-shell__cube {
+  position: absolute;
+  width: min(46vw, 25rem);
+  aspect-ratio: 1;
+  border: 1px solid #666;
+  transform: rotateX(62deg) rotateZ(45deg);
+  transition: transform var(--motion-duration-control) var(--motion-ease-editorial);
+}
+
+.projection-3d-shell[data-preset='side'] .projection-3d-shell__cube { transform: rotateX(15deg) rotateY(68deg) rotateZ(4deg); }
+.projection-3d-shell[data-preset='top'] .projection-3d-shell__cube { transform: rotateX(0deg) rotateZ(0deg); }
+
+.projection-3d-shell__cube i {
+  position: absolute;
+  inset: 16.66%;
+  border: 1px solid #3f3f3f;
+}
+
+.projection-3d-shell__cube i:nth-child(2) { inset: 33.33%; }
+.projection-3d-shell__cube i:nth-child(3) { inset: 49.99%; }
+.projection-3d-shell__cube i:nth-child(4) { inset: 0 33.33%; border-block: 0; }
+.projection-3d-shell__cube i:nth-child(5) { inset: 33.33% 0; border-inline: 0; }
+.projection-3d-shell__cube i:nth-child(6) { inset: 0; border-color: var(--signal-red-dark); transform: translate(10%, 10%); }
+
+.projection-3d-shell__alternative {
+  display: grid;
+  max-width: 48rem;
+  gap: 0.75rem;
+  padding-block: 1.5rem;
+}
+
+.projection-method-policy {
+  margin-block: clamp(2.5rem, 5vw, 5rem);
+  border-top: 2px solid var(--ink-primary);
+  padding-top: 1.5rem;
+}
+
+.projection-method-policy > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.projection-method-policy article {
+  border-top: 1px solid var(--line-medium);
+  padding-top: 1rem;
+}
+
+.projection-method-policy article > span {
+  color: var(--signal-red);
+  font-family: var(--font-mono);
+  font-weight: 800;
+}
+
+.projection-method-policy h3 {
+  margin-top: 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.projection-method-policy article p {
+  margin-top: 0.5rem;
+  color: var(--ink-secondary);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 64rem) {
+  .projection-method-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .projection-method-tabs button:nth-child(4) {
+    border-left: 0;
+  }
+
+  .projection-lab-field-layout,
+  .projection-compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projection-lab-field-layout [data-testid='atlas-chart'] .redline-stage-body {
+    min-height: 28rem;
+  }
+
+  .projection-quality-grid,
+  .tensor-spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projection-quality-grid > div:nth-child(3),
+  .tensor-spec-grid > div:nth-child(3) {
+    border-left: 0;
+  }
+}
+
+@media (max-width: 40rem) {
+  .projection-method-lab {
+    background: none;
+    padding-block: 2.5rem;
+  }
+
+  .projection-method-tabs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projection-method-tabs button:nth-child(odd) {
+    border-left: 0;
+  }
+
+  .projection-method-tabs button:nth-child(even) {
+    border-left: 1px solid var(--line-faint);
+  }
+
+  .projection-compare-toolbar,
+  .projection-3d-shell > header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .projection-method-unavailable {
+    grid-template-columns: 1fr;
+  }
+
+  .projection-method-unavailable > span {
+    font-size: 3.5rem;
+  }
+
+  .projection-method-policy > div {
+    grid-template-columns: 1fr;
+  }
+
+  .projection-3d-shell__viewport {
+    min-height: 24rem;
+  }
+
+  .projection-3d-shell__cube {
+    width: 16rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projection-3d-shell__cube {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .projection-method-tabs button[aria-selected='true'],
+  .projection-lab-dossier,
+  .projection-3d-shell__viewport,
+  .projection-3d-shell__controls button[aria-pressed='true'] {
+    border-color: CanvasText;
+    background: Canvas;
+    color: CanvasText;
+  }
+
+  .projection-mini-plot svg,
+  .projection-3d-shell__cube,
+  .projection-3d-shell__cube i {
+    forced-color-adjust: auto;
+  }
+}

@@ -20,6 +20,7 @@ frontend/dist/
 frontend/coverage/
 frontend/playwright-report/
 frontend/test-results/
+*.tsbuildinfo
 
 # Environment
 .env
@@ -47,4 +48,3 @@ release-assets/
 *.pt
 *.pth
 *.zip
-

@@ -1,0 +1,154 @@
+/* Design System Tokens for P3_CULTURE — 문체위 국정감사 6년 */
+
+:root {
+  /* REDLINE PUBLIC RECORD — semantic palette */
+  --paper-canvas: #f3f2ee;
+  --paper-surface: #fcfbf7;
+  --paper-muted: #e5e3dd;
+  --ink-primary: #111111;
+  --ink-secondary: #494945;
+  --ink-tertiary: #6f6e69;
+  --line-faint: #d4d1c9;
+  --line-medium: #aaa79f;
+  --line-strong: #555550;
+  --signal-red: #f01b2d;
+  --signal-red-dark: #a40f1f;
+  --signal-red-soft: #f6d8dc;
+  --archive-ochre: #806426;
+  --archive-ochre-soft: #e3d8bd;
+  --inverse-surface: #0b0b0b;
+  --inverse-text: #f5f3ed;
+  --inverse-muted: #bdbab2;
+
+  /* Backward-compatible aliases. Values remain declared only in this token file. */
+  --color-ink: var(--ink-primary);
+  --color-paper: var(--paper-canvas);
+  --color-on-ink: var(--inverse-text);
+  --color-surface: var(--paper-surface);
+  --color-neutral-900: #242422;
+  --color-neutral-800: #353532;
+  --color-neutral-700: var(--ink-secondary);
+  --color-neutral-600: #5d5c58;
+  --color-neutral-500: #676660;
+  --color-neutral-400: var(--ink-tertiary);
+  --color-neutral-300: var(--line-medium);
+  --color-neutral-200: var(--line-faint);
+  --color-neutral-100: var(--paper-muted);
+
+  /* Behavior Family Color Tokens */
+  --color-behavior-red-deep: var(--signal-red-dark);
+  --color-behavior-red-soft: #d9959d;
+  --color-behavior-red-bg: #faeaec;
+
+  --color-behavior-amber-deep: #6f571f;
+  --color-behavior-amber-soft: var(--archive-ochre-soft);
+  --color-behavior-amber-bg: #f5f0e4;
+
+  --color-behavior-blue-deep: #365f75;
+  --color-behavior-blue-soft: #9bb4c1;
+  --color-behavior-blue-bg: #eaf1f3;
+
+  /* Reported Status Color Tokens */
+  --status-complete: var(--ink-primary);
+  --status-active: var(--line-strong);
+  --status-unresolved: var(--signal-red-dark);
+
+  /* Atlas Data-State Tokens */
+  --atlas-state-warning: var(--archive-ochre);
+  --atlas-state-error: var(--signal-red-dark);
+  --atlas-state-ready: #365f75;
+  --atlas-control-target: 2.75rem;
+  --color-focus: var(--signal-red-dark);
+
+  /* Fluid Typography Scale */
+  --type-display-hero-quote: clamp(2.5rem, 8.2vw, 8.5rem);
+  --type-display-hero-conclusion: clamp(1.75rem, 5.2vw, 5.5rem);
+  --type-display-xl: clamp(4rem, 8vw, 8.25rem);
+  --type-display-l: clamp(2.75rem, 4.5vw, 4.75rem);
+  --type-heading-1: clamp(1.875rem, 3vw, 3rem);
+  --type-heading-2: clamp(1.375rem, 2vw, 1.75rem);
+  --type-body-l: clamp(1.0625rem, 1.25vw, 1.25rem);
+  --type-body-m: 1rem;
+  --type-caption: 0.8125rem;
+  --type-mono: 0.78125rem;
+  --type-meta-micro: clamp(0.625rem, 0.7vw, 0.75rem);
+
+  /* Font Families */
+  --font-sans: "Pretendard Variable", Pretendard, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Noto Serif KR", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Spacing Tokens */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Layout Tokens */
+  --layout-max: 120rem;
+  --layout-gutter: 1rem;
+  --layout-editorial: 45rem;
+  --header-height: 3.5rem;
+  --layout-hero-min-height: 85vh;
+  --layout-hero-image-width: clamp(14rem, 24vw, 22rem);
+  --chapter-prologue-padding-block: clamp(2rem, 5vh, 5rem);
+
+  /* Evidence Band & Line Tokens */
+  --evidence-band-width: 16px;
+  --evidence-line-width: 2.5px;
+  --evidence-line-color: var(--color-behavior-red-deep);
+  --evidence-line-entry-duration: 550ms;
+  --evidence-line-handoff-duration: 600ms;
+
+  /* Layout Column Placement Tokens — Magazine Grid Layouts */
+  --layout-column-start: 4;
+  --layout-column-end: 9;
+  --grid-col-full: 1 / -1;
+  --grid-col-center-editorial: 4 / span 6; /* Columns 4–9 */
+  --grid-col-left-editorial: 2 / span 7;   /* Columns 2–8 */
+  --grid-col-right-editorial: 5 / span 7;  /* Columns 5–11 */
+  --grid-col-wide-editorial: 3 / span 8;   /* Columns 3–10 */
+  --grid-col-narrow-editorial: 5 / span 5; /* Columns 5–9 */
+  --grid-col-asymmetric-left: 1 / span 8;  /* Columns 1–8 */
+  --grid-col-asymmetric-right: 6 / span 7; /* Columns 6–12 */
+
+  /* Whitespace Ratio Tokens — Editorial Narrative Rhythm */
+  --whitespace-ratio-expansive: clamp(6rem, 12vh, 12rem);
+  --whitespace-ratio-wide: clamp(4rem, 8vh, 8rem);
+  --whitespace-ratio-standard: clamp(2.5rem, 5vh, 5rem);
+  --whitespace-ratio-compact: clamp(1.5rem, 3vh, 3rem);
+  --whitespace-ratio-dense: clamp(0.75rem, 1.5vh, 1.5rem);
+
+  /* Border Radii */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 9999px;
+
+  /* Z-Index Architecture */
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-navigation: 40;
+  --z-overlay: 80;
+  --z-modal: 100;
+  --z-toast: 120;
+
+  /* Motion Tokens */
+  --motion-duration-micro: 150ms;
+  --motion-duration-control: 220ms;
+  --motion-duration-drawer: 300ms;
+  --motion-duration-morph: 550ms;
+  --motion-duration-transition: 800ms;
+
+  --motion-ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-ease-sharp: cubic-bezier(0.4, 0, 0.2, 1);
+}

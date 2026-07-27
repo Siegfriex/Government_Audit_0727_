@@ -1,0 +1,48 @@
+{
+  "analysis_entity_count": 761,
+  "atlas_node_count": 140,
+  "behavior_child_count": 769,
+  "primary_behavior_distribution": {
+    "A1": 26,
+    "A2": 172,
+    "A3": 2,
+    "A4": 31,
+    "A5": 49,
+    "A6": 124,
+    "A7": 56,
+    "A8": 301
+  },
+  "projection_hash": "4665fdf3e5cf8e5fc69d214d5e0a744e8a8d489b87fb4766b320f6f28887784f",
+  "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+  "projection_point_count": 761,
+  "public_evidence_count": 64,
+  "release_id": "ATLAS_DG761_STORY_20260724_022353_KST_BF673FD1",
+  "status_distribution": {
+    "active": 17,
+    "complete": 31,
+    "unresolved": 713
+  },
+  "story_preview_node_ids": [
+    "ANODE_A0ED3C29A19856E591EE1054",
+    "ANODE_040F8E9D865B2678B1EA8480",
+    "ANODE_35545549419BBA5C7CAC163E",
+    "ANODE_B1E760C8ED64BFB514430598",
+    "ANODE_1E243058E6185B27816CADF2",
+    "ANODE_D48C20F6FC0CF862455DE93F",
+    "ANODE_491D5DCB87021D835E62BE77",
+    "ANODE_F6FDA076C8D867386DC8F08A",
+    "ANODE_E488BDA6398875DB653D7A71",
+    "ANODE_7F4D62F0A56331262C5D5748",
+    "ANODE_7043CA899EEFE3AFF2A42967",
+    "ANODE_04B045B567F1636F7DA030D4",
+    "ANODE_C38ECD979BA360965DD47CA7",
+    "ANODE_E4D3347772CAED46EC96CEF9",
+    "ANODE_A3F2095FB0FDD68ED4AF8085",
+    "ANODE_94427A590D387E143DDD4B93"
+  ],
+  "topic_bin_count": 24,
+  "warnings": [
+    "이 지도는 의미적 위치를 2차원으로 투영한 표시용 공간입니다.",
+    "2차원 거리 자체를 실제 유사도 점수로 해석하지 마십시오."
+  ]
+}
