@@ -78,7 +78,13 @@ def validate_retrieval() -> dict[str, object]:
         require(not frame.astype(str).apply(lambda col: col.str.contains("/home/|[A-Za-z]:\\\\", regex=True).any()).any(), f"local path in {name}")
     require(len(frames["answer_behavior_labels"]) == EXPECTED["answer_behavior_labels"], "behavior label count differs")
     require(len(frames["decision_groups"]) == EXPECTED["decision_groups"], "decision group count differs")
-    return {name: len(frame) for name, frame in frames.items()}
+    queries = pd.read_parquet(ROOT / "data/pipeline/target_issues.parquet")
+    candidates = pd.read_parquet(ROOT / "data/pipeline/retrieval_candidates.parquet")
+    require(len(queries) == EXPECTED["search_queries"], "search query count differs")
+    require(len(candidates) == EXPECTED["search_candidates"], "search candidate count differs")
+    result = {name: len(frame) for name, frame in frames.items()}
+    result.update({"search_queries": len(queries), "search_candidates": len(candidates)})
+    return result
 
 
 def validate_atlas() -> dict[str, object]:
@@ -140,4 +146,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
