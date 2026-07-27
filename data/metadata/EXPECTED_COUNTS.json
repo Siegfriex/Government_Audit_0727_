@@ -1,0 +1,16 @@
+{
+  "meeting_pdfs": 42,
+  "meeting_pages": 4495,
+  "text_blocks": 293717,
+  "speaker_turns": 65590,
+  "retrieval_segments": 196686,
+  "qa_pairs": 25958,
+  "answer_units": 26063,
+  "search_queries": 297,
+  "search_candidates": 14850,
+  "answer_behavior_labels": 769,
+  "decision_groups": 761,
+  "projection_points": 761,
+  "topic_bins": 24,
+  "atlas_nodes": 140
+}

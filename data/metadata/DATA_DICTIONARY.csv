@@ -1,0 +1,28 @@
+﻿table_name,column_name,data_type,plain_description,created_at_stage
+pages,page_no,string,회의록의 각 페이지를 구분하는 번호,회의록 페이지 추출
+pages,raw_text,string,PDF 페이지에서 읽은 원문,회의록 페이지 추출
+blocks,block_no,string,페이지 안의 텍스트 덩어리를 구분하는 번호,텍스트 블록 추출
+blocks,block_type,string,"본문, 화자 머리말, 시간 표시 등을 구분한 값",텍스트 블록 분류
+speaker_turns,turn_no,string,한 화자의 이어진 발언을 구분하는 번호,화자별 발언 연결
+speaker_turns,normalized_text,string,검색에 사용할 수 있도록 공백과 문자를 정리한 발언,텍스트 정리
+retrieval_segments,segment_no,string,검색 문맥을 구분하는 번호,검색용 문맥 생성
+retrieval_segments,normalized_text,string,현재 발언 또는 앞뒤 발언을 이어 만든 검색 대상 문장,검색용 문맥 생성
+qa_pairs,qa_pair_id,string,질문과 이어진 답변 묶음을 구분하는 번호,질문과 답변 연결
+qa_pairs,question_text,string,위원의 질문 문장,질문과 답변 연결
+answer_units,answer_unit_id,string,같은 답변자가 이어서 말한 답변 단위,답변 단위 생성
+answer_units,answer_text_normalized,string,띄어쓰기와 줄바꿈을 정리한 답변,답변 단위 생성
+target_issues,target_issue_id,string,처리결과보고서의 문제 항목을 구분하는 번호,검색 문장 준비
+target_issues,issue_text,string,처리결과보고서에서 정리한 문제 문장,검색 문장 준비
+target_issues,action_text,string,처리결과보고서에서 정리한 조치 문장,검색 문장 준비
+retrieval_candidates,final_rank,integer,TF-IDF와 MiniLM 결과를 합쳐 정한 후보 순서,검색 후보 생성
+retrieval_candidates,rrf_score,float,세 가지 후보 순서를 하나로 합친 점수,검색 후보 생성
+decision_groups,projection_entity_id,string,지도에 한 번 포함되는 검토 완료 분석 단위,검토 완료 데이터 불러오기
+decision_groups,topic_anchor_text_normalized,string,지도 위치를 계산할 때 사용한 대표 문장,검토 완료 데이터 불러오기
+decision_groups,status,string,처리 상태를 단순화한 값,검토 완료 데이터 불러오기
+answer_behavior_labels,answer_type_code,string,답변 방식을 A1부터 A8까지 나타낸 코드,검토 완료 데이터 불러오기
+projection_points,x,float,2차원 지도에서의 가로 위치,UMAP 2차원 배치
+projection_points,y,float,2차원 지도에서의 세로 위치,UMAP 2차원 배치
+topic_bins,topic_bin_id,string,비슷한 문장을 묶은 24개 주제 구역의 번호,KMeans 주제 구역 생성
+atlas_nodes,node_id,string,최종 Atlas 노드를 구분하는 번호,Atlas 노드 생성
+atlas_nodes,member_count,integer,한 노드에 포함된 분석 단위 수,Atlas 노드 생성
+atlas_nodes,node_size,float,노드 규모를 화면 크기로 변환한 값,Atlas 노드 생성

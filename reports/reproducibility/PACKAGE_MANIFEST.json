@@ -1,0 +1,603 @@
+{
+  "package_name": "P3_CULTURE_SUBMISSION_DATA_PIPELINE",
+  "notebook": "P3_CULTURE_DATA_PIPELINE.ipynb",
+  "canonical_release_id": "ATLAS_DG761_STORY_20260724_022353_KST_BF673FD1",
+  "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+  "source_pdf_count": 42,
+  "source_page_count": 4495,
+  "decision_group_count": 761,
+  "topic_bin_count": 24,
+  "atlas_node_count": 140,
+  "python_version": "3.12.3",
+  "created_at": "2026-07-27T11:38:39+09:00",
+  "files": [
+    {
+      "relative_path": "P3_CULTURE_DATA_PIPELINE.ipynb",
+      "size_bytes": 382307,
+      "sha256": "7da8477d8df1f2b87ffd18d6fd232c77a8eac95c42330e13a9f21826900836b4",
+      "role": "원본부터 Atlas 노드까지 실행하는 단일 노트북"
+    },
+    {
+      "relative_path": "README.md",
+      "size_bytes": 5718,
+      "sha256": "a8e547604901a2ec680f72dd0bb76d159b8be9f2965f5de6709d38bec7d399ac",
+      "role": "제출 패키지 안내와 실행 방법"
+    },
+    {
+      "relative_path": "data/metadata/DATA_DICTIONARY.csv",
+      "size_bytes": 2986,
+      "sha256": "224d846056bfe3e8d3bcf13d2a64c24ec38d22b0ceb3167daa4a7e15d75c2796",
+      "role": "원본 명세와 주요 열 설명"
+    },
+    {
+      "relative_path": "data/metadata/DATA_SOURCE_CARDS.csv",
+      "size_bytes": 12975,
+      "sha256": "4621328ef837e4b3f25baa07f1f51baa6878986973c8d2ba89cb2db20c4919d8",
+      "role": "원본 명세와 주요 열 설명"
+    },
+    {
+      "relative_path": "data/metadata/EXPECTED_COUNTS.json",
+      "size_bytes": 363,
+      "sha256": "adbd2a7fc25647f6a457ab2f708b498f4868600153d1816cc3cc659e5b145daf",
+      "role": "원본 명세와 주요 열 설명"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050308.pdf",
+      "size_bytes": 1642620,
+      "sha256": "b4214ed1e023978e54ae2ae6d9b4a72f3f48a03a710178efb67ca6a983989563",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050350.pdf",
+      "size_bytes": 2368512,
+      "sha256": "925920014947df9d23b66c72fb98b8bef403ec67bb0b32fd71b875d61d8ff6d6",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050430.pdf",
+      "size_bytes": 2451456,
+      "sha256": "ed5475928c143a59a7dccdb0a2cf3d8d3a7b30a4a132b0365f8a9c97362b9bbc",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050492.pdf",
+      "size_bytes": 2457600,
+      "sha256": "c33ca3dba98c93cfda48fb3b30bcdb0eeaf4798e1f181abbc8f9151c53f02dbb",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050606.pdf",
+      "size_bytes": 2681856,
+      "sha256": "b1fa06537f75dcd64976e07d41910e6a39fbeac3b712a946e31320df83f6327a",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050615.pdf",
+      "size_bytes": 2467840,
+      "sha256": "a5c7e9da852e3a80f12c8da3181c801dcc787cba746aef89e22ec6d556d975d6",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/050673.pdf",
+      "size_bytes": 2115584,
+      "sha256": "7516b042f79b146b18ce1214883705b8b0daf7c8d902c978bf79d8528e1f34ad",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051354.pdf",
+      "size_bytes": 2310144,
+      "sha256": "ae1ffb39bf27ec2b1c6e15975ba289b9988cd4e13662186812be57ff10c22781",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051381.pdf",
+      "size_bytes": 2161664,
+      "sha256": "41bc4c0b7b4845fe2e62f9a6f83b0ce3b1d26396d18072b8e31589c031f3f631",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051402.pdf",
+      "size_bytes": 2268160,
+      "sha256": "e7f98e7abf4e7885f1ebf0937a5445240daac6f489e36213f0ce12b079eb900a",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051424.pdf",
+      "size_bytes": 2173952,
+      "sha256": "543b70245cab8c68742b40d1c0e99cde95c8ff2a574b0ed4e25cf023ed0f0764",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051487.pdf",
+      "size_bytes": 1477425,
+      "sha256": "2d9f5abf0eaf9083a169ab9fdec65fe1106da354a585096fcd6a655226b32ecc",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051535.pdf",
+      "size_bytes": 2200576,
+      "sha256": "6c81ed05f48ba7ec83281578c397ff993d3bd0c0a7199467d35120d2e7dbc437",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/051558.pdf",
+      "size_bytes": 1822720,
+      "sha256": "bbfa620de1422dba41bc9a9920f065adb3a2d877553719c6a3685f2c5f362201",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052229.pdf",
+      "size_bytes": 2364416,
+      "sha256": "bbf01fc2ab16dc5d42a4467b12a93c6a3ca7c99b4fa10c8e70d50ff2b3ae5ad5",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052280.pdf",
+      "size_bytes": 2086912,
+      "sha256": "5b53775af9cab85466f6bec324fbc8b30f243c5b6cdb7650cf999bf17d6c41ee",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052315.pdf",
+      "size_bytes": 2428928,
+      "sha256": "7d722704f728d45eae461aa25325be9f7ede8b886e9e73b15e6be10d1e44c5d9",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052364.pdf",
+      "size_bytes": 1314218,
+      "sha256": "f4c7c863dad3afd2eb5481b1e1a16b2ebc5c659b1c438227bc0ba447b77bff29",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052423.pdf",
+      "size_bytes": 2481152,
+      "sha256": "2f8c1573cbbd7fa3f81f7713696189b84d93ebb310c1539b3c3dc8d7057d0016",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052493.pdf",
+      "size_bytes": 2220032,
+      "sha256": "f71ad8ee9191083b63740d4152cfc68dd15861f98de11392dbd828d9c7d7da73",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/052556.pdf",
+      "size_bytes": 1880064,
+      "sha256": "43f0b7d6a598e557b798393492debc7377fa8adb5e25678500eef26609866520",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053329.pdf",
+      "size_bytes": 2197504,
+      "sha256": "59fd5d2554130681de7e011678a4c4e139cd4bff59f583f43bcdfc12fa4e5aa2",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053357.pdf",
+      "size_bytes": 2569216,
+      "sha256": "3c4867700cf20e7cc9b656371cb98c06694b17921cccffbbada2afc8c5b296f0",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053389.pdf",
+      "size_bytes": 2072576,
+      "sha256": "001312bc504d6f6454dae444e7b733ddfb9ecfb72fe19048cba03fc1eb3bdca0",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053501.pdf",
+      "size_bytes": 2391040,
+      "sha256": "1f58a7d8a17c9941a2c2c72e6ce5f8335967b7962af68d30ac59386c56909389",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053598.pdf",
+      "size_bytes": 2080768,
+      "sha256": "397ffd905cefc4097c2e7808692d154d96652aba3fcb56658acf5e757e45dfab",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053680.pdf",
+      "size_bytes": 2053120,
+      "sha256": "62c15b83c31f925ffe70d055480e0f38aae03813be49f4d3ef4ffae1ff78a2bc",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/053740.pdf",
+      "size_bytes": 1907712,
+      "sha256": "7c99d56df3dd25ce6efe931b95c1255c0d793a24ae8bd6768481a45e5acff502",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054235.pdf",
+      "size_bytes": 1853418,
+      "sha256": "8e4ca82fe491bbcd61c6db1c8ade26cd2ff75487f3554f3daaa457516a621bd2",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054269.pdf",
+      "size_bytes": 1724754,
+      "sha256": "705695c2b08eee9ea070adf170793a1b49d4459ed01c1ec1a24c53f9fc336eb7",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054345.pdf",
+      "size_bytes": 1980751,
+      "sha256": "26cf21b3a4c8bd4790822a66e4bed7379fe39bb2013a7cc5790d369ef9210003",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054435.pdf",
+      "size_bytes": 1643445,
+      "sha256": "851a8e88f1091c35d9080166b5b19ac680dff46dd41954b6194e685f8b2f48b5",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054519.pdf",
+      "size_bytes": 1503081,
+      "sha256": "fa685de2164d87a622d7019acdf19872b1bdcac18d4b8a1b4bb700b93a2ff810",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054576.pdf",
+      "size_bytes": 2033101,
+      "sha256": "669299172462c6c23180e766055e863f13db5a7f3d447535c590dc58876e79b4",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/054622.pdf",
+      "size_bytes": 2233947,
+      "sha256": "3653fad5be33e8009f6ca2af80969647450775818406fd86530165c308edc307",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053479.pdf",
+      "size_bytes": 1676340,
+      "sha256": "9f675ee65967a054b88a38dcd015e4153a22621b0828d2f7c471ed77984b0fd0",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053480.pdf",
+      "size_bytes": 1628447,
+      "sha256": "400287e9f8a667599422e18fa8e8eb01c45cbad069b7c8327d413eeba04b6d0e",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053481.pdf",
+      "size_bytes": 1398663,
+      "sha256": "cb59af05d2669fbe35009ce092f92d894d8830a44efb997bd3e38312938e545d",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053482.pdf",
+      "size_bytes": 1387053,
+      "sha256": "ae08d12998ba6203ba867d686d9f3dcafa5f72b968d2c5462436b9e1b3cc0973",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053483.pdf",
+      "size_bytes": 1402193,
+      "sha256": "064b01e592dde906c02b842f068f9a8dea36193aed1d093a33be7e93ab3bd8e1",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053485.pdf",
+      "size_bytes": 1662106,
+      "sha256": "4eb40f2ceda04f50eca45aea3fae6235b46a1529896e4bd2907a2fa7ff82bfc4",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/meeting_pdfs/N053487.pdf",
+      "size_bytes": 1665703,
+      "sha256": "b8bbaecf71e70bf4ce91292a41d0230e3c964effe615e15e221933a51ea05dc8",
+      "role": "국정감사 회의록 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/source_registry/2020_marked_issue_mapping.csv",
+      "size_bytes": 67573,
+      "sha256": "b8f766aaf8a972e1d8b9236bd4361ea2c4cb8d311e83f1f368cfb556d3d51733",
+      "role": "원본 수집 및 파일 연결 기록"
+    },
+    {
+      "relative_path": "data/raw/source_registry/2022_marked_issue_mapping.csv",
+      "size_bytes": 71013,
+      "sha256": "11bf1a9776d20c2adb1433e61428af8b5fe6cde57c20ffdae3420d99e6e81462",
+      "role": "원본 수집 및 파일 연결 기록"
+    },
+    {
+      "relative_path": "data/raw/source_registry/2024_marked_issue_mapping.csv",
+      "size_bytes": 40554,
+      "sha256": "a031bfbcb0380a7bfc7565901331d27286ec5dcac57088119bc621000f3a1b75",
+      "role": "원본 수집 및 파일 연결 기록"
+    },
+    {
+      "relative_path": "data/raw/source_registry/control_registry.parquet",
+      "size_bytes": 21235,
+      "sha256": "3712765d74f3971900068dd386e78fc818f246fd243178069ee81a6e5590f414",
+      "role": "원본 수집 및 파일 연결 기록"
+    },
+    {
+      "relative_path": "data/raw/source_registry/raw_document_manifest.csv",
+      "size_bytes": 26385,
+      "sha256": "955a8e8a58a16f6963d57207f0df16b4b9826390cbdab4af96d1a861d37ff6b6",
+      "role": "원본 수집 및 파일 연결 기록"
+    },
+    {
+      "relative_path": "data/raw/source_registry/국정감사회의록_문화체육 2020~.xlsx",
+      "size_bytes": 20568,
+      "sha256": "a4e7bb5ae119556e9c506d74cc0566caaf59a753f3f2c26cb30004ad486ea675",
+      "role": "원본 수집 및 파일 연결 기록"
+    },
+    {
+      "relative_path": "data/raw/target_reports/2020년도_국정감사결과_형광펜_통합본.pdf",
+      "size_bytes": 1736577,
+      "sha256": "39b22045f62625a1dea321a714e041b119632f640f208da55c2cbb5ea8088d86",
+      "role": "처리결과보고서 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/target_reports/2022_국정감사결과_요구사항1-259_260-끝_병합.pdf",
+      "size_bytes": 31106940,
+      "sha256": "9390284efe2f80a8b544cfe2da900805ed02941db8a1a7a37a5dec960fb0b4cb",
+      "role": "처리결과보고서 원본 PDF"
+    },
+    {
+      "relative_path": "data/raw/target_reports/2024년도 국정감사결과 시정 및 처리 요구사항에 대한 처리결과 보고서 (1).pdf",
+      "size_bytes": 1213379,
+      "sha256": "711e69f611728cea69d9eb71808c1fb1d71522335b336a73f7df334d9ab7b0e6",
+      "role": "처리결과보고서 원본 PDF"
+    },
+    {
+      "relative_path": "data/reviewed/answer_behavior_labels.parquet",
+      "size_bytes": 167624,
+      "sha256": "a2c8098eb71904cc8c57cb3a9999f760c8a36faa29b39bc23f1ddeffb2a00d83",
+      "role": "사람이 확인한 연결·라벨·분석 단위"
+    },
+    {
+      "relative_path": "data/reviewed/decision_groups.parquet",
+      "size_bytes": 1200396,
+      "sha256": "7f46a046ec05875f84d600912af56bc81598bf6b8534cec7d454c3119dc13889",
+      "role": "사람이 확인한 연결·라벨·분석 단위"
+    },
+    {
+      "relative_path": "data/reviewed/reviewed_links.parquet",
+      "size_bytes": 176147,
+      "sha256": "668cbee93eed9cec91bc6a16d316b1364e38a3454146e4d5f676c3899b6c0ce2",
+      "role": "사람이 확인한 연결·라벨·분석 단위"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/1_Pooling/config.json",
+      "size_bytes": 190,
+      "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/README.md",
+      "size_bytes": 3888,
+      "sha256": "1e98ea05b0de579fcaad3d625b62ea55647142ed674d5f5ebf1440e4bbbb6f23",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/config.json",
+      "size_bytes": 645,
+      "sha256": "6300193cb75e01cf80c96decef7187dfb33094d97cc1490b7ead6ff134476e4e",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/config_sentence_transformers.json",
+      "size_bytes": 122,
+      "sha256": "b8c64b5cece00d8424b4896ea75b512b6008576088497609dfeb6bd63e6d36b8",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/model.safetensors",
+      "size_bytes": 470641600,
+      "sha256": "eaa086f0ffee582aeb45b36e34cdd1fe2d6de2bef61f8a559a1bbc9bd955917b",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/modules.json",
+      "size_bytes": 229,
+      "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/sentence_bert_config.json",
+      "size_bytes": 53,
+      "sha256": "70f4448f31320443fe3557cacea5abf2dcc4915dda8c80646bec9f3bb0aa5a1f",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/special_tokens_map.json",
+      "size_bytes": 239,
+      "sha256": "378eb3bf733eb16e65792d7e3fda5b8a4631387ca04d2015199c4d4f22ae554d",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/tokenizer.json",
+      "size_bytes": 9081518,
+      "sha256": "2c3387be76557bd40970cec13153b3bbf80407865484b209e655e5e4729076b8",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "models/paraphrase-multilingual-MiniLM-L12-v2/tokenizer_config.json",
+      "size_bytes": 526,
+      "sha256": "5036ea374ffedd706e3bef33e2e0d6953cb868ef8a490e76e32ba0faa37a6b9b",
+      "role": "오프라인 MiniLM 모델 구성 파일"
+    },
+    {
+      "relative_path": "outputs/RUN_SUMMARY.json",
+      "size_bytes": 3920,
+      "sha256": "4b493e4c6effa246582570a259dce4c7b95d9603a79a727c14f28ee8be4b76f1",
+      "role": "노트북 최종 자동 검사 결과"
+    },
+    {
+      "relative_path": "outputs/cache/embedding_matrix.parquet",
+      "size_bytes": 748384,
+      "sha256": "f9bdb0d12f3e7f617cce7dc8f59eff1ae8af86141196073a0228f76671068283",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/cache/environment.json",
+      "size_bytes": 383,
+      "sha256": "3fc8acf23d0a73d140d4c935ade2f7a2aa1b35d25faf1d21c01c79b4aaf266c5",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/cache/kmeans_model.joblib",
+      "size_bytes": 19393,
+      "sha256": "67e5fe541c34a0ec04f1a20cfdb0c10207818aca697a87fdf4109e939210a139",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/cache/minilm_candidate_vector_index.csv",
+      "size_bytes": 335683,
+      "sha256": "b804102b6b030d4b1b08500e59db025a191ae547949c34e0c784e8c4f937632d",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/cache/minilm_candidate_vectors.npy",
+      "size_bytes": 16999040,
+      "sha256": "c34ef3547809cd3a2c54aef4ad3421acbf5c937667006d0b2df15f870cdf35e8",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/cache/text_vectorizer_svd.joblib",
+      "size_bytes": 5392803,
+      "sha256": "e5b532586ee81d4dabe0cfe15c04c279357c088052400cf231923c68a4f03fb1",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/cache/umap_model.joblib",
+      "size_bytes": 377162,
+      "sha256": "9c4b1c852dfdb04da58af905bea7257b4ac85f0a31883c8fbad40c0b3f84a70c",
+      "role": "노트북이 생성한 벡터·모델 캐시"
+    },
+    {
+      "relative_path": "outputs/figures/01_pipeline_row_counts.png",
+      "size_bytes": 42464,
+      "sha256": "ad22494c4e6e084edd7ed89f9f832b13e3e021e45ee30ea23e5cd2132a7470ea",
+      "role": "노트북이 생성한 설명용 그림"
+    },
+    {
+      "relative_path": "outputs/figures/02_minutes_by_year.png",
+      "size_bytes": 22470,
+      "sha256": "91f118d8723dc37d014a7eb890df90edad6bc65d963a964f5730f92da7108457",
+      "role": "노트북이 생성한 설명용 그림"
+    },
+    {
+      "relative_path": "outputs/figures/03_topic_bin_counts.png",
+      "size_bytes": 35546,
+      "sha256": "36663b39f0386e29074feb18addb2588ee755b9555d1a685bac2a809af7ad272",
+      "role": "노트북이 생성한 설명용 그림"
+    },
+    {
+      "relative_path": "outputs/figures/04_umap_points.png",
+      "size_bytes": 130259,
+      "sha256": "6a0d82dde48858815654bce47e06d170763c15b4b575e557aac410903117c0eb",
+      "role": "노트북이 생성한 설명용 그림"
+    },
+    {
+      "relative_path": "outputs/figures/05_atlas_nodes.png",
+      "size_bytes": 85885,
+      "sha256": "866b31f8750533aae99b67a389df47aa0395f6975c610eec16842d630a5bbfa9",
+      "role": "노트북이 생성한 설명용 그림"
+    },
+    {
+      "relative_path": "outputs/figures/06_nodes_by_answer_type.png",
+      "size_bytes": 25087,
+      "sha256": "b3e625d7dff56ed4691e9e4c3dccf5c83a9558e434c1a514bab8864a2a2ad6ba",
+      "role": "노트북이 생성한 설명용 그림"
+    },
+    {
+      "relative_path": "outputs/tables/answer_units.parquet",
+      "size_bytes": 4497116,
+      "sha256": "ceb1e95bf4825eb744b242783ac55d39a77c006855b14a7ea0e034bca8196332",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/atlas_node_members.parquet",
+      "size_bytes": 28644,
+      "sha256": "f9284cc7c6cb4bdf0149cee611c34d1ca0643edb65ced820df2c79423ed99659",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/atlas_nodes.csv",
+      "size_bytes": 46256,
+      "sha256": "a5a1c037ee95781a9e2b7c86c931ca42f50ca9d46a9b5f330284da60b63580f5",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/blocks.parquet",
+      "size_bytes": 22592760,
+      "sha256": "026cd13d7475a06ca5bc483e6277b993095acc4e5355df0bdee2bbb67bebd789",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/pages.parquet",
+      "size_bytes": 18117081,
+      "sha256": "12361d01e6bf8dc8ceffdba702f8fcccfdd4ba1abfa9a40fe0f01bd12ffcf287",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/projection_points.csv",
+      "size_bytes": 70985,
+      "sha256": "794cb54d24360df4cc730d8370b12eaa34cb9be71aca61649c19f07221c20a16",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/qa_pairs.parquet",
+      "size_bytes": 7274076,
+      "sha256": "74e69a7c385ba48ced330a883395626d63c56351509201ec8798722d017dde06",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/retrieval_candidates.parquet",
+      "size_bytes": 2808968,
+      "sha256": "db114680df3939ba5de81886cfd10c68c28fe2e5dcfbda0cdee80c4faf949dc1",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/retrieval_segments.parquet",
+      "size_bytes": 34344207,
+      "sha256": "2e27ca1d1a37ef035e9b31b215bc81ccc2bd20c11b48855071d320c18395f5b5",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/speaker_turns.parquet",
+      "size_bytes": 21350349,
+      "sha256": "7cd3d6f145c54353f6a8e1e98636084122169c4750ec24799e722214767a4197",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/target_issues.parquet",
+      "size_bytes": 272647,
+      "sha256": "24c3f3987f0a3f6d79113bc1da125bd338a4b30ac52391a0565032b9d239f4bb",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/topic_bin_members.parquet",
+      "size_bytes": 22703,
+      "sha256": "70dd5afc0456501d7a04bed60b5fd51dd2ecb067a0dfcce0bcc6d0d42069d67c",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "outputs/tables/topic_bins.csv",
+      "size_bytes": 5250,
+      "sha256": "eaf76f7c40fc6af9ccead9e7f88f97784ca667185d3c34cdc68fda1255362fda",
+      "role": "노트북이 생성한 단계별 결과 표"
+    },
+    {
+      "relative_path": "requirements.txt",
+      "size_bytes": 280,
+      "sha256": "8afff4678c02587126459bc83d863d864b851e01112d503a0f9197517f65a76e",
+      "role": "재현 환경 패키지 버전"
+    },
+    {
+      "relative_path": "verification/REPRODUCIBILITY_REPORT.json",
+      "size_bytes": 3571,
+      "sha256": "67880efbbdd23024dc91f60c554da2b0cd2253eb7a85f05aef3a0ca9fc5b6c5c",
+      "role": "별도 복사본 재실행 비교 결과"
+    }
+  ]
+}
