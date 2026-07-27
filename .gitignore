@@ -1,0 +1,50 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter execution
+*.executed.ipynb
+outputs/cache/
+data/raw/
+data/downloads/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/playwright-report/
+frontend/test-results/
+
+# Environment
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Vercel
+.vercel/
+frontend/.vercel/
+
+# Local/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Large local artifacts
+release-assets/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.zip
+
