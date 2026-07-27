@@ -1,5 +1,7 @@
 <div align="center">
 
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9.0-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/) [![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-5.6.0-FFD21E)](https://www.sbert.net/) [![PyTorch](https://img.shields.io/badge/PyTorch-2.12.1-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Model-FFD21E)](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+
 # Stage 03 · 텍스트 검색
 
 **TF-IDF로 관련 발언 후보를 찾고 MiniLM과 RRF로 후보 순서를 정리하는 단계**
@@ -75,4 +77,3 @@ python3 scripts/validate_data_integrity.py --stage retrieval
 ## Branch Map
 
 `stage/00-project-definition` → `stage/01-data-sources` → `stage/02-data-preparation` → **`stage/03-text-mining`** → `stage/04-modeling-atlas` → `stage/05-frontend` → `stage/06-integration-release` → `main`
-

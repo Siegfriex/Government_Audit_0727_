@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "run_id": "P3_SUBMISSION_PIPELINE_V1",
+  "canonical_release_id": "ATLAS_DG761_STORY_20260724_022353_KST_BF673FD1",
+  "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+  "counts": {
+    "meeting_pdfs": 42,
+    "meeting_pages": 4495,
+    "text_blocks": 293717,
+    "speaker_turns": 65590,
+    "retrieval_segments": 196686,
+    "qa_pairs": 25958,
+    "answer_units": 26063,
+    "search_queries": 297,
+    "search_candidates": 14850,
+    "answer_behavior_labels": 769,
+    "decision_groups": 761,
+    "projection_points": 761,
+    "topic_bins": 24,
+    "atlas_nodes": 140
+  },
+  "checks": [
+    {
+      "check": "meeting_pdfs",
+      "expected": 42,
+      "observed": 42,
+      "status": "PASS"
+    },
+    {
+      "check": "meeting_pages",
+      "expected": 4495,
+      "observed": 4495,
+      "status": "PASS"
+    },
+    {
+      "check": "text_blocks",
+      "expected": 293717,
+      "observed": 293717,
+      "status": "PASS"
+    },
+    {
+      "check": "speaker_turns",
+      "expected": 65590,
+      "observed": 65590,
+      "status": "PASS"
+    },
+    {
+      "check": "retrieval_segments",
+      "expected": 196686,
+      "observed": 196686,
+      "status": "PASS"
+    },
+    {
+      "check": "qa_pairs",
+      "expected": 25958,
+      "observed": 25958,
+      "status": "PASS"
+    },
+    {
+      "check": "answer_units",
+      "expected": 26063,
+      "observed": 26063,
+      "status": "PASS"
+    },
+    {
+      "check": "search_queries",
+      "expected": 297,
+      "observed": 297,
+      "status": "PASS"
+    },
+    {
+      "check": "search_candidates",
+      "expected": 14850,
+      "observed": 14850,
+      "status": "PASS"
+    },
+    {
+      "check": "answer_behavior_labels",
+      "expected": 769,
+      "observed": 769,
+      "status": "PASS"
+    },
+    {
+      "check": "decision_groups",
+      "expected": 761,
+      "observed": 761,
+      "status": "PASS"
+    },
+    {
+      "check": "projection_points",
+      "expected": 761,
+      "observed": 761,
+      "status": "PASS"
+    },
+    {
+      "check": "topic_bins",
+      "expected": 24,
+      "observed": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "atlas_nodes",
+      "expected": 140,
+      "observed": 140,
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash_check",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "finite_projection",
+      "expected": 761,
+      "observed": 761,
+      "status": "PASS"
+    },
+    {
+      "check": "duplicate_projection_id",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "duplicate_node_membership",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    }
+  ],
+  "generated_outputs": [
+    "outputs/cache/embedding_matrix.parquet",
+    "outputs/cache/environment.json",
+    "outputs/cache/kmeans_model.joblib",
+    "outputs/cache/minilm_candidate_vector_index.csv",
+    "outputs/cache/minilm_candidate_vectors.npy",
+    "outputs/cache/text_vectorizer_svd.joblib",
+    "outputs/cache/umap_model.joblib",
+    "outputs/figures/01_pipeline_row_counts.png",
+    "outputs/figures/02_minutes_by_year.png",
+    "outputs/figures/03_topic_bin_counts.png",
+    "outputs/figures/04_umap_points.png",
+    "outputs/figures/05_atlas_nodes.png",
+    "outputs/figures/06_nodes_by_answer_type.png",
+    "outputs/tables/answer_units.parquet",
+    "outputs/tables/atlas_node_members.parquet",
+    "outputs/tables/atlas_nodes.csv",
+    "outputs/tables/blocks.parquet",
+    "outputs/tables/pages.parquet",
+    "outputs/tables/projection_points.csv",
+    "outputs/tables/qa_pairs.parquet",
+    "outputs/tables/retrieval_candidates.parquet",
+    "outputs/tables/retrieval_segments.parquet",
+    "outputs/tables/speaker_turns.parquet",
+    "outputs/tables/target_issues.parquet",
+    "outputs/tables/topic_bin_members.parquet",
+    "outputs/tables/topic_bins.csv"
+  ]
+}

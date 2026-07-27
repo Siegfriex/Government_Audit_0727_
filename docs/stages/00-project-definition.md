@@ -1,5 +1,7 @@
 <div align="center">
 
+[![Markdown](https://img.shields.io/badge/Markdown-Documentation-000000?logo=markdown)](https://www.markdownguide.org/) [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?logo=github)](https://docs.github.com/) [![CRISP-DM](https://img.shields.io/badge/CRISP--DM-Roadmap-4B5563)](https://www.ibm.com/docs/en/spss-modeler/saas?topic=dm-crisp-help-overview)
+
 # Stage 00 · 프로젝트 정의
 
 **정부감사 자료를 질문·답변·조치의 흐름으로 탐색하는 프로젝트의 범위를 정하는 단계**
@@ -68,4 +70,3 @@ jupyter nbconvert --to notebook --execute P3_CULTURE_DATA_PIPELINE.ipynb \
 ## Branch Map
 
 `stage/00-project-definition` → `stage/01-data-sources` → `stage/02-data-preparation` → `stage/03-text-mining` → `stage/04-modeling-atlas` → `stage/05-frontend` → `stage/06-integration-release` → `main`
-
