@@ -1,0 +1,119 @@
+/* Typography Hierarchy */
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.type-display-hero-quote {
+  font-family: var(--font-serif);
+  font-size: var(--type-display-hero-quote);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  word-break: keep-all;
+}
+
+.type-display-hero-conclusion {
+  font-family: var(--font-serif);
+  font-size: var(--type-display-hero-conclusion);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-neutral-700);
+  word-break: keep-all;
+}
+
+/* keep-all treats a space-free quote as one unbreakable run — on narrow
+   viewports there's no break opportunity left, so it overflows the column
+   instead of wrapping. Fall back to per-character breaking below the point
+   where the clamp() floor stops shrinking with the viewport. */
+@media (max-width: 480px) {
+  .type-display-hero-quote,
+  .type-display-hero-conclusion {
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+}
+
+.type-meta-micro {
+  font-family: var(--font-mono);
+  font-size: var(--type-meta-micro);
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-neutral-700);
+}
+
+.type-display-xl {
+  font-family: var(--font-sans);
+  font-size: var(--type-display-xl);
+  line-height: 0.88;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+}
+
+.type-display-l {
+  font-family: var(--font-serif);
+  font-size: var(--type-display-l);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  font-weight: 700;
+}
+
+.type-heading-1 {
+  font-family: var(--font-serif);
+  font-size: var(--type-heading-1);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+.type-heading-2 {
+  font-family: var(--font-sans);
+  font-size: var(--type-heading-2);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+.type-body-l {
+  font-family: var(--font-sans);
+  font-size: var(--type-body-l);
+  line-height: 1.7;
+  color: var(--color-neutral-900);
+}
+
+.type-body-m {
+  font-family: var(--font-sans);
+  font-size: var(--type-body-m);
+  line-height: 1.6;
+  color: var(--color-neutral-700);
+}
+
+.type-caption {
+  font-family: var(--font-sans);
+  font-size: var(--type-caption);
+  line-height: 1.5;
+  color: var(--color-neutral-500);
+  letter-spacing: 0.01em;
+}
+
+.type-mono {
+  font-family: var(--font-mono);
+  font-size: var(--type-mono);
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.foundation-type-sample {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}

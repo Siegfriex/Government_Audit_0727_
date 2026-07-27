@@ -1,0 +1,14 @@
+{
+  "browser_analysis": false,
+  "centroid_space": "96D normalized embedding",
+  "embedding_dimension": 96,
+  "embedding_model_id": "EMB_TFIDF_KO_CHAR_SVD96_V1",
+  "fit_scope": "all_statuses",
+  "normalization": "L2",
+  "random_state": 42,
+  "similarity_space": "96D normalized embedding",
+  "topic_bins": 24,
+  "umap_metric": "cosine",
+  "umap_min_dist": 0.08,
+  "umap_neighbors": 20
+}

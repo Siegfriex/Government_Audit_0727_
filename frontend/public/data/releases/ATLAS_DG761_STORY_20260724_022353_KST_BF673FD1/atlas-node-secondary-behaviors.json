@@ -1,0 +1,66 @@
+[
+  {
+    "answer_type_code": "A7",
+    "atlas_node_id": "ANODE_830C7892B5474300686D8C51",
+    "behavior_family": "action_evidence",
+    "gold_label_group_id": "BGLG_B5B9A82F6DB5BC3DF5AB606A",
+    "gold_label_id": "BGL_4BD919B868BF881411B439DB",
+    "projection_entity_id": "PE_04D360C323AB2FE13B69E6DB"
+  },
+  {
+    "answer_type_code": "A6",
+    "atlas_node_id": "ANODE_277FE9C2D5C262DD976F6897",
+    "behavior_family": "deferral_procedural",
+    "gold_label_group_id": "BGLG_2815CBAE0AD2EA2711F92652",
+    "gold_label_id": "BGL_4A39D496F865948624D477A3",
+    "projection_entity_id": "PE_521ED6AEB620EB3F93F517EA"
+  },
+  {
+    "answer_type_code": "A3",
+    "atlas_node_id": "ANODE_E60FEB71931C103579E2BFEA",
+    "behavior_family": "information_non_direct",
+    "gold_label_group_id": "BGLG_4B94D633D429D41F38CBF265",
+    "gold_label_id": "BGL_77ECD6CB31C2B2D117E55E0C",
+    "projection_entity_id": "PE_56193E4E0C2EE8151F23252E"
+  },
+  {
+    "answer_type_code": "A7",
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "behavior_family": "action_evidence",
+    "gold_label_group_id": "BGLG_71A36272C46A580AC939D9FE",
+    "gold_label_id": "BGL_D2408E3C2F7A5BF4294C6B19",
+    "projection_entity_id": "PE_79D4726D6F20949EAE4EBE31"
+  },
+  {
+    "answer_type_code": "A6",
+    "atlas_node_id": "ANODE_D2F824B727DE1B83E43429D6",
+    "behavior_family": "deferral_procedural",
+    "gold_label_group_id": "BGLG_B3CAA2B75509A274CA57A5EB",
+    "gold_label_id": "BGL_0FA461711EDCE3DE99F53977",
+    "projection_entity_id": "PE_9186E583B9C352E491A30964"
+  },
+  {
+    "answer_type_code": "A6",
+    "atlas_node_id": "ANODE_277FE9C2D5C262DD976F6897",
+    "behavior_family": "deferral_procedural",
+    "gold_label_group_id": "BGLG_5FD8F1BB4B0857A0A6412914",
+    "gold_label_id": "BGL_2A6FFD0C72E42D1B6AE64E22",
+    "projection_entity_id": "PE_AA3E2A2B8B8B1E8D8AEBC015"
+  },
+  {
+    "answer_type_code": "A4",
+    "atlas_node_id": "ANODE_817AC9527A4D35A7DF83B2F0",
+    "behavior_family": "information_non_direct",
+    "gold_label_group_id": "BGLG_825D92F934925805279CFB37",
+    "gold_label_id": "BGL_66684472060D6A067BC44211",
+    "projection_entity_id": "PE_FC50DA64BB0AE994122AF779"
+  },
+  {
+    "answer_type_code": "A7",
+    "atlas_node_id": "ANODE_D48C20F6FC0CF862455DE93F",
+    "behavior_family": "action_evidence",
+    "gold_label_group_id": "BGLG_A23D6166AB2466766C9FBB76",
+    "gold_label_id": "BGL_C5BBF30AE834D91E725AB786",
+    "projection_entity_id": "PE_FC93EF8E48267FB71AF77635"
+  }
+]

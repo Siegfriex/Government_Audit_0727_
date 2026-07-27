@@ -1,0 +1,52 @@
+{
+  "answer_type_distribution": {
+    "A1": 26,
+    "A2": 172,
+    "A3": 2,
+    "A4": 31,
+    "A5": 49,
+    "A6": 124,
+    "A7": 56,
+    "A8": 301
+  },
+  "approved_evidence_count": 64,
+  "approved_evidence_count_definition": "64 unique evidence-index rows satisfying approved review_status, approved publish_status, public_visibility=true, with canonical detail payloads",
+  "atlas_node_count": 140,
+  "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+  "derived_from_release_id": "ATLAS_DG761_20260723_213011_KST_F7A35BC6",
+  "generated_at": "2026-07-24T02:28:46.876326+09:00",
+  "metrics_source": "validated_existing_release",
+  "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+  "projection_entity_count": 761,
+  "projection_hash": "4665fdf3e5cf8e5fc69d214d5e0a744e8a8d489b87fb4766b320f6f28887784f",
+  "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+  "release_id": "ATLAS_DG761_STORY_20260724_022353_KST_BF673FD1",
+  "schema_version": "1.0",
+  "semantic_recomputation_performed": false,
+  "status_distribution": {
+    "active": 17,
+    "complete": 31,
+    "unresolved": 713
+  },
+  "story_preview_answer_type_distribution": {
+    "A1": 1,
+    "A2": 2,
+    "A3": 1,
+    "A4": 1,
+    "A5": 1,
+    "A6": 2,
+    "A7": 1,
+    "A8": 7
+  },
+  "story_preview_behavior_family_distribution": {
+    "action_evidence": 8,
+    "deferral_procedural": 3,
+    "information_non_direct": 5
+  },
+  "story_preview_node_count": 16,
+  "story_preview_status_distribution": {
+    "active": 1,
+    "complete": 1,
+    "unresolved": 14
+  }
+}

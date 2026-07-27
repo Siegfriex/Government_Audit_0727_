@@ -1,0 +1,578 @@
+[
+  {
+    "atlas_node_id": "ANODE_0B8D4FD0AB901E8A3D921B5E",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_238914C385B630FBAA183AC0",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_6171C2B694D59C8932AB1E39",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_E1A87C80C06688984B5252C5"
+  },
+  {
+    "atlas_node_id": "ANODE_1D7D6C7B22F7317501FD4EF0",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_5432C4C87D7CD48E64ED2BB1",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_4E8934FA968F76B90900D05C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_7D1A406FE2970E94BF5BD041"
+  },
+  {
+    "atlas_node_id": "ANODE_1D7D6C7B22F7317501FD4EF0",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_A9119DB363A79658F1FD47BA",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_4E8934FA968F76B90900D05C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_EEA1850F1C25CC290FCA0652"
+  },
+  {
+    "atlas_node_id": "ANODE_1D7D6C7B22F7317501FD4EF0",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_D524A2889E7371E34F2FE028",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_4E8934FA968F76B90900D05C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_DB4D0CF235567DF393877FE7"
+  },
+  {
+    "atlas_node_id": "ANODE_1D7D6C7B22F7317501FD4EF0",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_E994F6470673BDA42C313934",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_4E8934FA968F76B90900D05C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_C31B05F8664E58CAA56B4CA2"
+  },
+  {
+    "atlas_node_id": "ANODE_1D7D6C7B22F7317501FD4EF0",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_F43B7E35F7F97698F4F7A9AC",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_4E8934FA968F76B90900D05C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_C57B1843F239CD87BADD46DF"
+  },
+  {
+    "atlas_node_id": "ANODE_36CA2F450FC82DCA9A95C16B",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_E3F9B5FA39D08726EDD7C631",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_BCA47C518CDB2A3544FD8F3D",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_1B94677A4F8C418992264A8A"
+  },
+  {
+    "atlas_node_id": "ANODE_36F6405FD53FB298D4CFCA7E",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_A426A1F41A4EE246B9A9FBB9",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_7DE34866C7D769CC5443E6BE",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_8A7DBD95AC9E6CF5457386DB"
+  },
+  {
+    "atlas_node_id": "ANODE_62B6852738502414C4FA08E3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_13F7D774F4C5A2AA4A6C1B6F",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_302E22557C3E218969935D00",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_EA9F50F5F2FDDD9D3050686D"
+  },
+  {
+    "atlas_node_id": "ANODE_62B6852738502414C4FA08E3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_1B18D2E6EB84827CAFB4EF70",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_A8D1769CEC96B12014C1E30A",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_A8C5BCF0C0D34D4451391FC6"
+  },
+  {
+    "atlas_node_id": "ANODE_78B8CB90D724763A6B5620EC",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_C8007B3A431FEE9A7BCA4C5A",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_06E1C062F8411A5433DAF6EC",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_CE13BFB78EBE3886439F5F3A"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_1F4B3F53934A5A3EBC07E5C1",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_73AFD3A964F020DB0459F1B1",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_053E80698C3573686A100750"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_3B0401493250F4E231E905DA",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_FCDB329183A1E979E7355546",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_2C657EF402C80CD7861790F5"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_7D7F05FD5253E3E36AAF5F46",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_FCDB329183A1E979E7355546",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_CEC6734AC0E99BD519F4F62D"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_816A40FDCC8F34C5E3275461",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_A5998DD42CE0EFDA875BF8D9",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_E1A2E29ECFDA295CF01FB931"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_844282CE7F3CB085E0A66B28",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_79D4726D6F20949EAE4EBE31",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_1032E62B67886E2BA80F2A06"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_904E0307BEFF560C41A0CACD",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_FCDB329183A1E979E7355546",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_958C913F53FC71C42B77F794"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_952E4FE58CE1E1B93ACAD4CA",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_79D4726D6F20949EAE4EBE31",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_167E2B374241F11B4060E1E7"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_D2A37B039658110A9090B3D0",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_79D4726D6F20949EAE4EBE31",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_2F74640082D79A0307288551"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_DB9E2A3AAAD4101418FDD794",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_FCDB329183A1E979E7355546",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_FD6B102AE3539EA6549952D1"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_DDC3E3EC524A6EEB84FF2657",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_FCDB329183A1E979E7355546",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_AC6C0D1569B9BE5A00EE2011"
+  },
+  {
+    "atlas_node_id": "ANODE_7F4D62F0A56331262C5D5748",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_EB73857391FEA9A91DDBFE4B",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_79D4726D6F20949EAE4EBE31",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_A14CE0F02FD5718B3C33A00B"
+  },
+  {
+    "atlas_node_id": "ANODE_8617FBA3A3EFDED2306DD6A9",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_312C46F35602CAD26DB7BA1F",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_94166066E4116A276DB27844",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_C71DF58016A4248840372FC3"
+  },
+  {
+    "atlas_node_id": "ANODE_8617FBA3A3EFDED2306DD6A9",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_ED7E1EFDCE613D27BA84F3FB",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_30D82A80FEEBEC9C7A7BBEA4",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_E723D6DF92D450801512ADB8"
+  },
+  {
+    "atlas_node_id": "ANODE_ABCCE78E84CC4F3672BF8FC3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_43E065D777F9E1F27A10FA5E",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_1D7C3021CF5671EF76B54BB8",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_C854F606C1D57F6F0829213E"
+  },
+  {
+    "atlas_node_id": "ANODE_ABCCE78E84CC4F3672BF8FC3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_A4B37BD6B880EF78A0D8721E",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_1D7C3021CF5671EF76B54BB8",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_C41ACE0C392A8C75DF624B27"
+  },
+  {
+    "atlas_node_id": "ANODE_ABCCE78E84CC4F3672BF8FC3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_D38A8B46D0F6F279FFDBE6AF",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_C8855599A0164A1C7709CCA8",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_CB7B74D981429449546BDC4E"
+  },
+  {
+    "atlas_node_id": "ANODE_ABCCE78E84CC4F3672BF8FC3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_F36711211829BB89C6BFE5EC",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_451CCD0FC79597FF94DB7F2E",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_DD817F13B3E7E4BFAE52E1BD"
+  },
+  {
+    "atlas_node_id": "ANODE_ABCCE78E84CC4F3672BF8FC3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_F9A077E38CF8A7949DA96761",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_6541D14F03ADAF89E41BFCA1",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_FD8E1E542B27729E058FA10B"
+  },
+  {
+    "atlas_node_id": "ANODE_ABCCE78E84CC4F3672BF8FC3",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_F9D4203E5800B22EEF707588",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_60A39480A9601080F9B4C905",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_66F7728D7F40397BC8F40FCB"
+  },
+  {
+    "atlas_node_id": "ANODE_B1252EAE247ACF06EE3CB3C6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_57D53419FEE16152D1F4A019",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_EBE36350E54653A7815D7B68",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_ACDA6416E745CE0534A1CB6B"
+  },
+  {
+    "atlas_node_id": "ANODE_B1252EAE247ACF06EE3CB3C6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_717D1F34B3A90B24DCBD4653",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_B8740D623D9FBB9534F6AC53",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_69DF333FC470407D97EADBD7"
+  },
+  {
+    "atlas_node_id": "ANODE_B1252EAE247ACF06EE3CB3C6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_7E6E85DB27FEA26F9BDD4F64",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_221AAFEFD995A8CAF5F76E91",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_276477925F880FFEE9EE1A2C"
+  },
+  {
+    "atlas_node_id": "ANODE_B1252EAE247ACF06EE3CB3C6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_AA36D13DADA42407031AC82A",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_88130B99EAACF75169276988",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_6363C73FAFC9D993C6750313"
+  },
+  {
+    "atlas_node_id": "ANODE_B1252EAE247ACF06EE3CB3C6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_FE9D9F4B30A2EE74D5E496B2",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_3DA905EABB7550706308F320",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_FE5F1E1A92CFD5723F1C0EC4"
+  },
+  {
+    "atlas_node_id": "ANODE_B54E2CFF74C5DD2FA301C89B",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_04539DD9949E3D307726A2DB",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_9DF6DA020D3FED49F830A159",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_1B2EC50B3972D0594615034D"
+  },
+  {
+    "atlas_node_id": "ANODE_B54E2CFF74C5DD2FA301C89B",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_30241F2584CC056B62BE5A89",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_799C6DBAC2819BC58C243A14",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_D9BD053A9D3BD2BC907A2A92"
+  },
+  {
+    "atlas_node_id": "ANODE_C2D6DB1939CBD4772DC696E6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_3284E622399C0FD7E6183210",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_74CE5F3CB3811B479C608363",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_28B9923D3B2EF5317E0ED6D3"
+  },
+  {
+    "atlas_node_id": "ANODE_C2D6DB1939CBD4772DC696E6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_E2AFC5C3146E9038D972CBC0",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_6145BDB6853E6A88680ACCB9",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_8440B96CC26DDDF65200F44B"
+  },
+  {
+    "atlas_node_id": "ANODE_C2D6DB1939CBD4772DC696E6",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_EB9DF065BE062149BCECE2B6",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_FB564D91F835AB62141455B8",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_29F633812A6208DB87EF9868"
+  },
+  {
+    "atlas_node_id": "ANODE_CB8147DABE3EC0AB34B67899",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_8DE0E062C17C462B960C6E22",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_8E27E88E1F18E904217624D9",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_8407684EB7581D985BEFF689"
+  },
+  {
+    "atlas_node_id": "ANODE_CB8147DABE3EC0AB34B67899",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_A7F850DD33547B2085CD8D5A",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_E914C662499184991B14C3F8",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_6F3CAE077B8AD9864BF5D987"
+  },
+  {
+    "atlas_node_id": "ANODE_E01ECC79943797F16459BFA2",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_B96FA73AC01F07D98FAFDDD6",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_A6E0225BCBBAFEC9ECFFE9F8",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_A8766BAC6A002C1EF3620CB0"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_18557647961C4C1481271E6B",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_4FFD1D4CE403B3A99108BFE2",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_5F51D5839DAF6827A9EDB432"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_437E9EB75AD071D9C3AAA1C8",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_84E16601077CC8CD71246766",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_0805911737041FDDAF309605"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_46FB5C306FBCACBA5D73DF71",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_916260626A139C9976F4695C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_67A7F6F5189C6D8D7A43D7B3"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_5B3142922358A7792F65DE0C",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_F83F74C23CB29CD711351C8E",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_61F87DF24D9954D063700568"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_73E85B7E956CB3F09FB06511",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_48751750A4C911BAE3F386F1",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_AED17E8D3DA3C72D7C9C91BF"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_8E0216FBAB0A966C0E0BD5B6",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_399E69575672C5058C20BCD3",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_7C057D5D78422762AF84F41E"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_9A18BC7E691ADD4306D5DAEB",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_15B70F1DF1B560AB8F21D5FD",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_11BA360EA8A85C61D5DD2771"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_A8AE5AE1975B8DC110353ED5",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_7445B6F92130A17F364957DA",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_407F58F76C8567AB0A8A17E9"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_ADED4382638C86BED544819C",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_916260626A139C9976F4695C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_256CDA8A2832A1192B364EEA"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_B1858AE7655FA85EE63B2021",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_891D12F0C56F24B993131EC5",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_1B03323ADB88549383AD4A6B"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_B83084034FAAD48E6E246BAA",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_D3A3E907513CD34A1D7321E6",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_575ADBD1574EC2F34E941763"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_C487B53F31E323A09C1E9EE7",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_399E69575672C5058C20BCD3",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_14755C16551063EE0D85BB96"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_C9180354772A5217ACFD4276",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_A1FB06C0BC421B85F48E0958",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_AF81FA028908072D0E228895"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_D6026748459FFF7AD553A023",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_F83F74C23CB29CD711351C8E",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_5BF489E59540F21DA905FED0"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_DB8D01893615CCDB1A2742BD",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_916260626A139C9976F4695C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_22A1DAF0DC22D458B5584D9E"
+  },
+  {
+    "atlas_node_id": "ANODE_E488BDA6398875DB653D7A71",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_E39FA93F9813206F7020C306",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_0E11600C766D1059CBA0CE79",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_C76598D4C6EAABDBE5AD1975"
+  },
+  {
+    "atlas_node_id": "ANODE_F5AC3C6C0E0DEDC63245F39A",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_F7F2CBCB52B7D3D6BA8C8301",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_00F25AAE48F26CF8A3D6FDC3",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_19B1AE0C07E1C760716F0CDE"
+  },
+  {
+    "atlas_node_id": "ANODE_FA42BC52E4E5C565844CDF0B",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_5B4681416FBF3CB90163024D",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_DFD8BE3D7DA67ABF4F2974BD",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_67ABFFB4CBD0E138B213EAD0"
+  },
+  {
+    "atlas_node_id": "ANODE_FA42BC52E4E5C565844CDF0B",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_79461CDE767270F0EC9FD352",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_CEA69E08BF0DC1EF0C01500B",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_8E2865AA516BE3DE7A2F237D"
+  },
+  {
+    "atlas_node_id": "ANODE_FAE5333E7802F53929CA5C7F",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_B66DE41063225B59538FDC73",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_C3B23B7637BD43677262AF10",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_B2C38BE680E75310A47565F8"
+  },
+  {
+    "atlas_node_id": "ANODE_FAE5333E7802F53929CA5C7F",
+    "data_version": "CORE_1.0.1__SEMANTIC_1.2.0__c29d2523c0ee",
+    "evidence_id": "EVID_D268A96ECA02EC19CECFB910",
+    "pipeline_run_id": "STATIC_ATLAS_20260723_213011_KST",
+    "projection_entity_id": "PE_27F590133B203CB0AA39819C",
+    "projection_id": "PROJ_DG761_20260723_213011_KST_4665FDF3E5CF",
+    "target_answer_link_id": "TALG_F39B0982EB7FFAECD2F2D4FA"
+  }
+]

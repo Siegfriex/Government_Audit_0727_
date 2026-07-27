@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Public data source placeholder</title>
+  <description id="description">A neutral portfolio placeholder used instead of third-party editorial imagery.</description>
+  <rect width="1200" height="800" fill="#f4f0e8"/>
+  <path d="M0 120h1200M0 680h1200" stroke="#b22b2b" stroke-width="10"/>
+  <path d="M96 240h1008M96 320h720M96 400h880M96 480h620" stroke="#252525" stroke-width="18" opacity=".22"/>
+  <circle cx="1000" cy="510" r="110" fill="none" stroke="#b22b2b" stroke-width="12" opacity=".65"/>
+  <text x="96" y="610" fill="#252525" font-family="system-ui, sans-serif" font-size="40" font-weight="700">PUBLIC DATA · SOURCE LINK</text>
+  <text x="96" y="655" fill="#5e5e5e" font-family="system-ui, sans-serif" font-size="24">Third-party image binary excluded from this repository</text>
+</svg>
