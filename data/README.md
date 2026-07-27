@@ -20,4 +20,10 @@
 - `metadata/EXPECTED_COUNTS.json`: 재현 시 비교할 기준 행 수
 - `source_registry/meeting_sources_public.csv`: 회의록 42건의 공개 출처 목록
 - `source_registry/*_marked_issue_mapping.csv`: 처리결과보고서에서 추출한 문제 항목의 원본 행 연결
+- `reviewed/reviewed_links.parquet`: 실제 관련성을 확인한 target-answer 연결 64건
+- `reviewed/answer_behavior_labels.parquet`: 공개용 답변행태 라벨 769건
+- `reviewed/decision_groups.parquet`: Atlas 입력이 되는 검토 완료 분석 단위 761건
+- `pipeline/target_issues.parquet`: 검색 query 297건
+- `pipeline/retrieval_candidates.parquet`: query별 상위 50개 검색 후보 14,850건
 
+`reviewed/` 공개본에는 검토자 이름·이메일·로컬 경로·내부 메모 열이 없습니다.
