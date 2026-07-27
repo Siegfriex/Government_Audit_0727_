@@ -1,5 +1,7 @@
 <div align="center">
 
+[![React](https://img.shields.io/badge/React-19.2.8-61DAFB?logo=react&logoColor=black)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Vite](https://img.shields.io/badge/Vite-6.4.3-646CFF?logo=vite&logoColor=white)](https://vite.dev/) [![Playwright](https://img.shields.io/badge/Playwright-1.61.1-2EAD33?logo=playwright)](https://playwright.dev/)
+
 # Stage 05 · Frontend
 
 **canonical Atlas bundle을 Story·Full Atlas·Evidence 화면으로 연결하는 단계**

@@ -1,5 +1,7 @@
 <div align="center">
 
+[![Python](https://img.shields.io/badge/Python-3.12.3-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![pandas](https://img.shields.io/badge/pandas-3.0.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![PyMuPDF](https://img.shields.io/badge/PyMuPDF-1.28.0-2C5BB4)](https://pymupdf.readthedocs.io/) [![SHA--256](https://img.shields.io/badge/SHA--256-Integrity-4B5563)](https://csrc.nist.gov/projects/hash-functions)
+
 # Stage 01 · 데이터 출처
 
 **처리결과보고서와 국정감사 회의록을 원본명·공식 URL·페이지 수·SHA-256으로 정리하는 단계**
@@ -58,4 +60,3 @@ python3 scripts/validate_data_integrity.py --stage sources
 ## Branch Map
 
 `stage/00-project-definition` → **`stage/01-data-sources`** → `stage/02-data-preparation` → `stage/03-text-mining` → `stage/04-modeling-atlas` → `stage/05-frontend` → `stage/06-integration-release` → `main`
-

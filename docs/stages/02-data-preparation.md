@@ -1,5 +1,7 @@
 <div align="center">
 
+[![Python](https://img.shields.io/badge/Python-3.12.3-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![pandas](https://img.shields.io/badge/pandas-3.0.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![PyMuPDF](https://img.shields.io/badge/PyMuPDF-1.28.0-2C5BB4)](https://pymupdf.readthedocs.io/) [![PyArrow](https://img.shields.io/badge/PyArrow-24.0.0-1F6FEB)](https://arrow.apache.org/docs/python/)
+
 # Stage 02 · 데이터 전처리
 
 **PDF 원문을 페이지·텍스트 블록·화자 발언·검색 문맥으로 변환하는 단계**
@@ -71,4 +73,3 @@ jupyter nbconvert --to notebook --execute P3_CULTURE_DATA_PIPELINE.ipynb \
 ## Branch Map
 
 `stage/00-project-definition` → `stage/01-data-sources` → **`stage/02-data-preparation`** → `stage/03-text-mining` → `stage/04-modeling-atlas` → `stage/05-frontend` → `stage/06-integration-release` → `main`
-

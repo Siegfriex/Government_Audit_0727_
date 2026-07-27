@@ -1,5 +1,7 @@
 <div align="center">
 
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9.0-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/) [![UMAP](https://img.shields.io/badge/UMAP--learn-0.5.9.post2-5B4B8A)](https://umap-learn.readthedocs.io/) [![NumPy](https://img.shields.io/badge/NumPy-2.4.6-013243?logo=numpy)](https://numpy.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.11.0-11557C)](https://matplotlib.org/)
+
 # Stage 04 · Atlas 모델링
 
 **761개 검토 완료 분석 단위를 24개 주제 구역과 140개 Atlas 노드로 정리하는 단계**
@@ -79,4 +81,3 @@ python3 -m json.tool reports/reproducibility/REPRODUCIBILITY_REPORT.json
 ## Branch Map
 
 `stage/00-project-definition` → `stage/01-data-sources` → `stage/02-data-preparation` → `stage/03-text-mining` → **`stage/04-modeling-atlas`** → `stage/05-frontend` → `stage/06-integration-release` → `main`
-
